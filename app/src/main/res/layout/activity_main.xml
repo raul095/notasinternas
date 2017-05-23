@@ -11,24 +11,24 @@
     tools:context="com.tutorialesprogramacionya.proyecto017.MainActivity">
 
     <TextView
-        android:text="Fecha"
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:id="@+id/textView" />
+        android:layout_alignParentTop="true"
+        android:text="Titulo" />
 
     <EditText
+        android:id="@+id/et1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="date"
-        android:ems="10"
-        android:layout_below="@+id/textView"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:id="@+id/et1"
-        android:hint="ingrese fecha" />
+        android:layout_below="@+id/textView"
+        android:ems="10"
+        android:hint="Ingrese Titulo"
+        android:inputType="text|textLongMessage|date" />
 
     <Button
         android:text="Grabar"
